@@ -8,9 +8,3 @@ const ciccio: Paperino = {
     b: 4,
     c: 7
 };
-
-function funci(p: Pippo) {
-    console.log(p.a);
-}
-
-funci(ciccio);

@@ -2,9 +2,6 @@
 ;
 var ciccio = {
     a: 5,
+    b: 4,
     c: 7
 };
-function funci(p) {
-    console.log(p.a);
-}
-funci(ciccio);
