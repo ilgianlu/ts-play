@@ -1,16 +1,10 @@
 interface Pippo { a: number; };
 interface Pluto { b: number; };
 
-type CiccioDiNonnaPapera = {
-    // a: number;
-    b: number;
-    c: number;
-}
-
 type Paperino = Pippo | Pluto;
 
-const ciccio: CiccioDiNonnaPapera = {
-    //a: 5,
+const ciccio: Paperino = {
+    a: 5,
     b: 4,
     c: 7
 };
